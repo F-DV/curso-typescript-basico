@@ -1,4 +1,4 @@
-(() =>{ //funcion autoejecutada
+(() =>{ //funcion Anonima autoejecutada
 
   let myProductName = 'Product 1'; //infiere que es string
   let myproductPrice = 123; //Infiere que es de tipo number
