@@ -15,12 +15,7 @@
     const products: product[] = [];
 
     //funcion con objeto de parametro
-    const addProduct = (data:{
-      title: string,
-      createdAt: Date,
-      stock: number,
-      size?: Sizes
-    }) => {
+    const addProduct = (data:product) => {
       products.push(data);
     }
 
