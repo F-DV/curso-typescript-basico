@@ -4,7 +4,7 @@
 
   type Sizes = 'S'|'M'|'L'|'XL';
 
-  const products: any = [];
+  const products: any = [];// en el 15 se resuelve este any
 
   //funcion con objeto de parametro
   const addProduct = (data:{
